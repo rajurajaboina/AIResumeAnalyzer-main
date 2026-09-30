@@ -1,0 +1,39 @@
+# =========================
+# Secrets / Configuration
+# =========================
+backend/src/main/resources/application.properties
+.env
+.env.*
+!.env.example
+
+# =========================
+# Java / Spring Boot
+# =========================
+backend/target/
+backend/uploads/
+
+# =========================
+# React
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
